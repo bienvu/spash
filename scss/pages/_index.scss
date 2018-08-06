@@ -81,6 +81,10 @@ a {
     font-weight: 400;
     z-index: 2;
 
+    a {
+      color: #9bce9c;
+    }
+
     @media screen and (max-width: 1023px) {
       left: 28px;
       top: 0;
