@@ -17,6 +17,21 @@ body {
   }
 }
 
+.main {
+  @media screen and (min-width: 1024px) {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    bottom: 30px;
+  }
+
+  @media screen and (min-width: 1600px) {
+    top: 60px;
+    bottom: 60px;
+  }
+}
+
 a {
   color: #c21a0a;
   text-decoration: none;
@@ -25,6 +40,7 @@ a {
     cursor: pointer;
   }
 }
+
 
 .logo {
   z-index: 2;
@@ -98,7 +114,7 @@ a {
   }
 
   @media screen and (min-width: 1024px) {
-    top: 60px;
+    top: 0;
     max-width: 300px;
     left: 7%;
   }
@@ -123,7 +139,7 @@ a {
   }
 
   @media screen and (min-width: 1024px) {
-    top: 60px;
+    top: 0;
     left: calc(43% + 9px);
     max-width: 300px;
   }
@@ -151,13 +167,13 @@ a {
 
   @media screen and (min-width: 1024px) {
     right: calc(7% + 10px);
-    top: 96px;
+    top: 36px;
     z-index: 3;
     max-width: 170px
   }
 
   @media screen and (min-width: 1280px) {
-    max-width: 250px;
+    max-width: 200px;
   }
 
   @media screen and (min-width: 1600px) {
@@ -178,14 +194,14 @@ a {
   }
 
   @media screen and (min-width: 1024px) {
-    bottom: 130px;
+    bottom: 70px;
     left: calc(32% + 8px);
     max-width: 200px;
     z-index: 4;
   }
 
   @media screen and (min-width: 1280px) {
-    max-width: 250px;
+    max-width: 230px;
   }
 
   @media screen and (min-width: 1600px) {
@@ -203,13 +219,13 @@ a {
   }
 
   @media screen and (min-width: 1024px) {
-    bottom: 220px;
+    bottom: 160px;
     left: calc(43% + 4px);
     max-width: 250px
   }
 
   @media screen and (min-width: 1280px) {
-    max-width: 350px;
+    max-width: 320px;
   }
 
   @media screen and (min-width: 1600px) {
@@ -226,13 +242,13 @@ a {
   }
 
   @media screen and (min-width: 1024px) {
-    bottom: 60px;
+    bottom: 0;
     left: 30px;
     max-width: 280px;
   }
 
   @media screen and (min-width: 1280px) {
-    max-width: 350px;
+    max-width: 320px;
   }
 
   @media screen and (min-width: 1600px) {
@@ -248,13 +264,13 @@ a {
   }
 
   @media screen and (min-width: 1024px) {
-    bottom: 90px;
+    bottom: 30px;
     right: 6%;
     max-width: 250px;
   }
 
   @media screen and (min-width: 1280px) {
-    max-width: 300px;
+    max-width: 280px;
   }
 
   @media screen and (min-width: 1600px) {
@@ -279,10 +295,14 @@ footer {
   }
 
   @media screen and (min-width: 1024px) {
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     padding-top: 10px;
     position: absolute;
     bottom: 0;
+  }
+
+  @media screen and (min-width: 1600px) {
+    padding-bottom: 50px;
   }
 }
 
@@ -292,7 +312,11 @@ footer {
   @media screen and (min-width: 1024px) {
     position: absolute;
     right: 51px;
-    bottom: 33px;
+    bottom: 20px;
     font-size: 15px;
+  }
+
+  @media screen and (min-width: 1600px) {
+    bottom: 33px;
   }
 }
