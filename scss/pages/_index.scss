@@ -15,6 +15,10 @@ body {
   @include susy-media(768px) {
     font-size: 25px;
   }
+
+  @media screen and (min-width: 1024px) {
+    overflow: hidden;
+  }
 }
 
 .main {
