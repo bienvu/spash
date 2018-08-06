@@ -45,7 +45,6 @@ a {
   }
 }
 
-
 .logo {
   z-index: 2;
 
@@ -124,6 +123,10 @@ a {
   }
 
   @media screen and (min-width: 1280px) {
+    max-width: 320px;
+  }
+
+  @media screen and (min-width: 1280px) and (min-height: 900px) {
     max-width: 400px;
   }
 
@@ -149,6 +152,10 @@ a {
   }
 
   @media screen and (min-width: 1280px) {
+    max-width: 320px;
+  }
+
+  @media screen and (min-width: 1280px) and (min-height: 900px) {
     max-width: 380px;
   }
 
@@ -177,6 +184,10 @@ a {
   }
 
   @media screen and (min-width: 1280px) {
+    max-width: 180px;
+  }
+
+  @media screen and (min-width: 1280px) and (min-height: 900px) {
     max-width: 200px;
   }
 
@@ -204,7 +215,7 @@ a {
     z-index: 4;
   }
 
-  @media screen and (min-width: 1280px) {
+  @media screen and (min-width: 1280px) and (min-height: 900px) {
     max-width: 230px;
   }
 
@@ -229,6 +240,10 @@ a {
   }
 
   @media screen and (min-width: 1280px) {
+    max-width: 280px;
+  }
+
+  @media screen and (min-width: 1280px) and (min-height: 900px) {
     max-width: 320px;
   }
 
@@ -252,6 +267,10 @@ a {
   }
 
   @media screen and (min-width: 1280px) {
+    max-width: 280px;
+  }
+
+  @media screen and (min-width: 1280px) and (min-height: 900px) {
     max-width: 320px;
   }
 
@@ -274,6 +293,10 @@ a {
   }
 
   @media screen and (min-width: 1280px) {
+    max-width: 250px;
+  }
+
+  @media screen and (min-width: 1280px) and (min-height: 900px) {
     max-width: 280px;
   }
 
