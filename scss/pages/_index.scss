@@ -234,7 +234,7 @@ a {
   }
 
   @media screen and (min-width: 1024px) {
-    bottom: 140px;
+    bottom: 130px;
     left: calc(43% + 4px);
     max-width: 250px
   }
@@ -249,6 +249,7 @@ a {
 
   @media screen and (min-width: 1600px) {
     max-width: inherit;
+    bottom: 160px;
   }
 }
 
