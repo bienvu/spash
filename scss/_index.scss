@@ -3,8 +3,6 @@ body {
   font-size: 17.52px;
   background: #000;
   color: #c21a0a;
-  height: 100vh;
-  width: 100vw;
   position: relative;
   overflow-x: hidden;
   overflow-y: auto;
@@ -14,6 +12,8 @@ body {
   }
 
   @media screen and (min-width: 1024px) {
+    height: 100vh;
+    width: 100vw;
     overflow: hidden;
   }
 }
