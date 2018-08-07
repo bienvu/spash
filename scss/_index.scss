@@ -125,7 +125,6 @@ a {
 
   @media screen and (min-width: 1280px) {
     max-width: 320px;
-    top: 32px;
   }
 
   @media screen and (min-width: 1280px) and (min-height: 900px) {
@@ -134,6 +133,11 @@ a {
 
   @media screen and (min-width: 1600px) {
     max-width: inherit;
+    top: 32px;
+  }
+
+  @media screen and (min-width: 1600px) and (max-height: 1079px) {
+    top: 0;
   }
 }
 
@@ -166,6 +170,9 @@ a {
     max-width: inherit;
     left: calc(49% + 9px);
   }
+  @media screen and (min-width: 1600px) and (max-height: 1079px) {
+    top: 0;
+  }
 }
 
 .third {
@@ -188,7 +195,7 @@ a {
 
   @media screen and (min-width: 1280px) {
     max-width: 180px;
-    top: 135px;
+
   }
 
   @media screen and (min-width: 1280px) and (min-height: 900px) {
@@ -197,6 +204,11 @@ a {
 
   @media screen and (min-width: 1600px) {
     max-width: inherit;
+    top: 135px;
+  }
+
+  @media screen and (min-width: 1600px) and (max-height: 1079px) {
+    top: 36px;
   }
 }
 
@@ -227,6 +239,10 @@ a {
     max-width: inherit;
     bottom: 99px;
   }
+
+  @media screen and (min-width: 1600px) and (max-height: 1079px) {
+    bottom: 70px;
+  }
 }
 
 .fifth {
@@ -256,6 +272,10 @@ a {
     max-width: inherit;
     bottom: 188px;
   }
+
+  @media screen and (min-width: 1600px) and (max-height: 1079px) {
+    bottom: 130px;
+  }
 }
 
 .sixth {
@@ -274,7 +294,6 @@ a {
 
   @media screen and (min-width: 1280px) {
     max-width: 280px;
-    bottom: 26px;
     left: 28px;
   }
 
@@ -284,6 +303,11 @@ a {
 
   @media screen and (min-width: 1600px) {
     max-width: inherit;
+    bottom: 26px;
+  }
+
+  @media screen and (min-width: 1600px) and (max-height: 1079px) {
+    bottom: 0;
   }
 }
 
@@ -311,6 +335,10 @@ a {
   @media screen and (min-width: 1600px) {
     max-width: inherit;
     bottom: 63px;
+  }
+
+  @media screen and (min-width: 1600px) and (max-height: 1079px) {
+    bottom: 20px;
   }
 }
 
