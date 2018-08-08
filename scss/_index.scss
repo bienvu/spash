@@ -43,7 +43,8 @@ a {
 }
 
 .logo {
-  z-index: 2;
+  position: relative;
+  z-index: 5;
 
   @media screen and (max-width: 1023px) {
     padding: 0 30px;
@@ -88,12 +89,18 @@ a {
     }
 
     @media screen and (max-width: 1023px) {
-      left: 28px;
-      top: 0;
+      left: 33%;
+      top: calc(100% - 38px);
     }
 
     @media screen and (max-width: 400px) {
       font-size: 15px;
+
+    }
+
+    @media screen and (max-width: 767px) {
+      left: 33%;
+      top: calc(100% - 25px);
     }
 
     @media screen and (min-width: 1024px) {
@@ -176,6 +183,8 @@ a {
 }
 
 .third {
+  z-index: 3;
+
   @media screen and (max-width: 1023px) {
     width: 23%;
     float: right;
@@ -189,7 +198,6 @@ a {
   @media screen and (min-width: 1024px) {
     right: calc(7% + 10px);
     top: 36px;
-    z-index: 3;
     max-width: 170px
   }
 
@@ -359,14 +367,14 @@ footer {
   }
 
   @media screen and (min-width: 1024px) {
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     padding-top: 10px;
     position: absolute;
     bottom: 0;
   }
 
   @media screen and (min-width: 1600px) {
-    padding-bottom: 65px;
+    padding-bottom: 33px;
     padding-left: 42px;
   }
 }
